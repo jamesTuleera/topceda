@@ -1,6 +1,10 @@
 <script setup>
     import UserSideNav from '../Pages/Components/UserSideNav.vue'
     // window.onload = () => alert('yessss') //document.getElementById('minimize_bar').click()
+    document.getElementById('notificationTitle').addEventListener('click', () => {
+      alert('yessss')
+    })
+    // alert('yessss')
 </script>
 
 
@@ -53,7 +57,7 @@
                   class="dropdown-menu dropdown-menu-left navbar-dropdown preview-list"
                   aria-labelledby="notificationDropdown"
                 >
-                  <h6 class="px-3 py-3 fw-semibold mb-0">Notifications</h6>
+                  <h6 class="px-3 py-3 fw-semibold mb-0" id="notificationTitle">Notifications</h6>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
